@@ -1,5 +1,5 @@
 # Jacks-Codes
-Matlab and Bash Codes
+
 Central repository for all Matlab, Bash and other codes used for modeling, optimization and analysis.
 
 Folders are organized by use case and purpose. 
