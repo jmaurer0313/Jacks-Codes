@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#SBATCH --partition=long
+#SBATCH --account=ahmarcus_lab
+#SBATCH --job-name=genAlgTalap-unix
+#SBATCH --output=genAlgTalap-unix.out
+#SBATCH --error=genAlgTalap-unix.err
+#SBATCH --time=96:00:00
+#SBATCH --mem=6G
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+
+
+module load matlab
+
+#method 1 - submits the job but does nothing
+#matlab -nodisplay GenAlg_CA_JM_Polz_v3_bigGen1_loopModels_FUNC(${modelName[@]}).m;
+
+#method 2 - internet suggestion on how strings should be passed to functions in matlab
+matlab -nodisplay -r  "GenAlg_Polz_v3_bigGen1_loopModels_wCtrl_FUNC_talapTESTKIT($1,$2)";

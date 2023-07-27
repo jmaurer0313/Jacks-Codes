@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#SBATCH --partition=short
+#SBATCH --account=ahmarcus_lab
+#SBATCH --job-name=PatSeaTalap-unix-v3
+#SBATCH --output=PatSeaTalap-unix-v3.out
+#SBATCH --error=PatSeaTalap-unix-v3.err
+#SBATCH --time=23:50:00
+#SBATCH --mem=6G
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+
+
+module load matlab/R2018b
+
+#method 1 - submits the job but does nothing
+#matlab -nodisplay GenAlg_CA_JM_Polz_v3_bigGen1_loopModels_FUNC(${modelName[@]}).m;
+
+#method 2 - internet suggestion on how strings should be passed to functions in matlab
+matlab -nodisplay -r  "PatSea_Nstate_polz_wGActrl_FUNC_multiOut_v2_weightCalc_Neq5($1, $2, $3)";
