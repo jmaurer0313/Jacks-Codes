@@ -1,3 +1,4 @@
+%AUTHOR: Jack Maurer 
 % Goal: generic scatter plot code fr power dependence
 printOpt=1; 
 % LinPreAtt=dir('*LinPreAtt.mat'); 
