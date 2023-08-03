@@ -1,3 +1,5 @@
+
+%AUTHOR: Jack Maurer 
 % Goal:  1). bring in 2dfpga data sets, of 1XN
 %        2). retime the data, cut it, sort it, calc the trajs and TCFs
 %        3). calc the wAVG
