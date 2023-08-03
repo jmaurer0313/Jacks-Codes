@@ -1,3 +1,5 @@
+
+%AUTHOR: Jack Maurer 
 % single2DFPGA_RT (same as original single2DFPGA but for the new retiming
 % script. 
 
