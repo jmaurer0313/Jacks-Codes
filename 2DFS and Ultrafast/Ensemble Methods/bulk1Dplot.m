@@ -1,3 +1,4 @@
+%AUTHOR: Jack Maurer 
 % bulk read of the linear data with plot
 
 base_folder='C:\Users\PMECS\Documents\AutoCorrData\Cy3DNA\20201020-161919';
