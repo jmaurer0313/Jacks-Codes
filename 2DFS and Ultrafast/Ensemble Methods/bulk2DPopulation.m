@@ -1,4 +1,4 @@
-
+%AUTHOR: Jack Maurer 
 
 c0 = 0.000299792458; % speed of light mm/fs
 
