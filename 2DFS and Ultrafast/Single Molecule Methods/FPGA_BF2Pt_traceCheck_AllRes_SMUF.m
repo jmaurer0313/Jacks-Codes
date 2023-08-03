@@ -1,3 +1,4 @@
+%AUTHOR: Jack Maurer 
 % Goal: perform brute force 2pt TCF calculations on the FPGA data arrays.
 % Store outputs for both P1 and P2 assuming they both carry some
 % information 
