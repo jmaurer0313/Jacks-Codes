@@ -1,3 +1,4 @@
+%AUTHOR: Jack Maurer 
 % GOAL: Plot all the TCFs within a Particular Folder and save the Weighted
 % Average plot to that same folder.
 
