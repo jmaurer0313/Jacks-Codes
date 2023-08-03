@@ -1,3 +1,4 @@
+%AUTHOR: Jack Maurer 
 % new version of the 2D bulk population analysis code - which does not have
 % seperate section for retimed data, just a toggle on the retiming
 
