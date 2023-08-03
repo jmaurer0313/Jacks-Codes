@@ -1,3 +1,4 @@
+%AUTHOR: Jack Maurer 
 % code to retime and then rephase the bulk 2D data using the nonlinear
 % signals post interpolation 
 
