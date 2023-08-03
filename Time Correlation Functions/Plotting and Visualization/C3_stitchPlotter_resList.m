@@ -1,3 +1,4 @@
+%AUTHOR: Jack Maurer 
 % c4 stitch plotter based on set of input resolutions
 
 constructName='(+15)Dimer';
