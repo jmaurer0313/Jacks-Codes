@@ -1,3 +1,5 @@
+%AUTHOR: Jack Maurer 
+
 %% bootstrapFourierStatistics (bsFS) bootstraps the input data, and 
 % calculates the positive Fourier Transform of the data. This assumes input
 % data is real. If it is complex, then negative frequencies must also be
