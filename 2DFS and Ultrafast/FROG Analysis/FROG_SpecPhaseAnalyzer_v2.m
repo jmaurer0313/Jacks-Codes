@@ -1,3 +1,4 @@
+%AUTHOR: Jack Maurer 
 % === file structure of Ek.dat and Speck.dat ===
 % x=1\t Intensity\t Phase\t Real()\t Imaginary()\t\n
 % :
